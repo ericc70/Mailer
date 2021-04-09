@@ -1,13 +1,13 @@
 {
 
-    "name": "ericc/mailer",
+    "name": "ericc70/mailer",
 
     "description": "Class PHP to send email with attachement",
 
     "keywords": ["mail", "attachement", "Bcc", "Cc", "mailing"],
 
     "license": "MIT",
-
+    "minimum-stability": "stable",
     "authors": [
 
         {
@@ -33,13 +33,13 @@
     },
     "autoload": {
 
-        "psr-0": {
+        "psr-4": {
 
-            "ericc": "src/"
+            "ericc70\\Mailler\\": "src/"
 
         }
 
-    },
-    "minimum-stability": "dev",
-    "prefer-stable" : true
+    }
+    
+    
 }
