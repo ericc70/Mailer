@@ -355,8 +355,8 @@ class Mailer
         $headers = $this->encodeHeaders();
 
 
-        //  return @mail($to, $subject, $body,  $headers);
-        return true; // for test raison risk of spam adress ip/email
+        return @mail($to, $subject, $body,  $headers);
+        // return true; // for test raison risk of spam adress ip/email
     }
 
 
