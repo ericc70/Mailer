@@ -1,0 +1,40 @@
+{
+
+    "name": "ericc/mailer",
+
+    "description": "Class PHP to send email with attachement",
+
+    "keywords": ["mail", "attachement", "Bcc", "Cc", "mailing"],
+
+    "license": "MIT",
+
+    "authors": [
+
+        {
+
+            "name": "Eric Chaon",
+
+            "email": "contact@ericc70.fr"
+
+        }
+
+    ],
+
+    "require": {
+
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "^8.5"
+
+    },
+
+    "autoload": {
+
+        "psr-0": {
+
+            "Fk": "src/"
+
+        }
+
+    }
+
+}
