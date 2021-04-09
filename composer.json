@@ -7,7 +7,7 @@
     "keywords": ["mail", "attachement", "Bcc", "Cc", "mailing"],
 
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors": [
 
         {
